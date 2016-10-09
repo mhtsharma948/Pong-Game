@@ -1,10 +1,11 @@
-if (thisObj.player1.offsetTop < thisObj.puck.offsetTop && thisObj.player1.offsetTop + 100 > thisObj.puck.offsetTop) {
+/*if (thisObj.player1.offsetTop < thisObj.puck.offsetTop && thisObj.player1.offsetTop + 100 > thisObj.puck.offsetTop) {
  thisObj.xSpeed *= -1;
  }
  if (thisObj.player2.offsetTop < thisObj.puck.offsetTop && thisObj.player2.offsetTop + 100 > thisObj.puck.offsetTop) {
  thisObj.xSpeed *= -1;
  }
-
+ * Created by hp on 06-06-2016.
+ */
 
 
 
@@ -19,18 +20,8 @@ if(intersection(thisObj.pddle.offsetLeft,thisObj.pddle.offsetTop,thisObj.pddleWi
 
 
 
-
-
-
-
-/*if(thisObj1.y < 0 || thisObj1.y + thisObj1.puckSide>window.innerHeight){
- thisObj1.ySpeed *= -1;
- }//check condition for puck touching top and bottom edge
- var intersection = function (ax,ay,ah,aw,bx,by,bs) {
- ax <= bx + bs && ay < by + bs && ay + 100 > by + bs;
- }; // check condition for puck stricking the paddle
- thisObj1.pddle=thisObj1.xSpeed<0?thisObj1.player1:thisObj1.player2;
- console.log(thisObj1.pddle);
- if(intersection(thisObj1.pddle.offsetLeft,thisObj1.pddle.offsetTop,thisObj1.pddleHeight,thisObj1.pddleWidth,thisObj1.puck.offsetLeft,thisObj1.puck.offsetTop,thisObj1.puckSide)){
- //thisObj1.xSpeed *= -1;
- }*/
+//  thisObj1.x = thisObj1.pddle === thisObj1.player1 ? thisObj1.player1.offsetLeft+thisObj1.pddleWidth : thisObj1.player2.offsetLeft - thisObj1.puckSide;
+//   var n = (thisObj1.puck.offsetTop + thisObj1.puckSide - thisObj1.pddle.offsetTop) / (thisObj1.pddleHeight + thisObj1.puckSide);
+//   var alpha = 0.25*Math.PI*(2*n-1);
+//   thisObj1.xSpeed =(thisObj1.pddle === thisObj1.player1 ? 1 : -1) * thisObj1.xSpeed * Math.cos(alpha);
+//   thisObj1.ySpeed = thisObj1.ySpeed  * Math.sin(alpha);

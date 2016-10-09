@@ -1,0 +1,71 @@
+#gameTable {
+    width: 100%;
+    height: 100%;
+    /*background-image: url(../images/grassFelt.jpg);*/
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgb(41, 154, 11);
+    background: -moz-linear-gradient(left, rgba(41, 154, 11, 0.3) 0%, rgba(41, 154, 11, 0.3) 100%);
+    background: -webkit-linear-gradient(left, rgba(41, 154, 11, 1) 0%, rgba(41, 154, 11, 1) 100%);
+    background: linear-gradient(to right, rgba(41, 154, 11, 1) 0%, rgba(41, 154, 11, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#299a0b', endColorstr='#299a0b', GradientType=1);
+}
+
+#player1 {
+    background: #000000;
+    position: absolute;
+    float: left;
+    left: 20px;
+    top: 50%;
+    width: 8px;
+    height: 100px;
+    border-radius: 4px;
+    box-shadow: 2px 4px 13px rgba(0, 0, 0, .5);
+}
+
+#player2 {
+    background: #000000;
+    position: absolute;
+    float: right;
+    width: 8px;
+    height: 100px;
+    right: 20px;
+    top: 50%;
+    border-radius: 4px;
+    box-shadow: 2px 4px 13px rgba(0, 0, 0, .5);
+}
+
+#puck {
+    /* background: #FFFFFF; */
+    position: absolute;
+    float: left;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    background: rgb(238, 238, 238);
+    background: -moz-linear-gradient(left, rgba(238, 238, 238, 1) 0%, rgba(204, 204, 204, 1) 100%);
+    background: -webkit-linear-gradient(left, rgba(238, 238, 238, 1) 0%, rgba(204, 204, 204, 1) 100%);
+    background: linear-gradient(to right, rgba(238, 238, 238, 1) 0%, rgba(204, 204, 204, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#eeeeee', endColorstr='#cccccc', GradientType=1);
+}
+
+#verlicalLine1{
+    width: 1px;
+    background-color: whitesmoke;
+    height: 100%;
+    float: left;
+    left: 10px;
+    position: absolute;
+}
+
+#verlicalLine2{
+    width: 1px;
+    background-color: whitesmoke;
+    height: 100%;
+    float: right;
+    right: 10px;
+    position: absolute;
+}
